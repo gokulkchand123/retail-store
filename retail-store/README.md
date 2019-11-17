@@ -1,11 +1,9 @@
 retail-store-discounts
-#################################################
+-----------------------------------
 
 As per the requirement ,Bill Amount for a Retail Store system
 
  * Technology Assessment
- * 
- * 
  * 1. If the user is an employee of the store, he gets a 30% discount 
  * 2. If the user is an affiliate of the store, he gets a 10% discount 
  * 3. If the user has been a customer for over 2 years, he gets a 5% discount. 
