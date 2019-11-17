@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.8275862068965517" branch-rate="1.0" lines-covered="48" lines-valid="58" branches-covered="14" branches-valid="14" complexity="1.173913043478261" version="2.1.1" timestamp="1573917339146">
+	<sources>
+		<source>C:/GK_Per/RetailStore/retail-store/target/generated-sources/annotations</source>
+		<source>--source</source>
+		<source>C:/GK_Per/RetailStore/retail-store/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.retail.billingsystem.helper" line-rate="0.782608695652174" branch-rate="1.0" complexity="1.1818181818181819">
+			<classes>
+				<class name="com.retail.billingsystem.helper.Consumer" filename="com/retail/billingsystem/helper/Consumer.java" line-rate="0.6428571428571429" branch-rate="1.0" complexity="1.1428571428571428">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/retail/billingsystem/helper/ConsumerType;Ljava/lang/String;Ljava/lang/String;Lorg/joda/time/DateTime;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="7" branch="false"/>
+								<line number="35" hits="7" branch="false"/>
+								<line number="36" hits="7" branch="false"/>
+								<line number="37" hits="7" branch="false"/>
+								<line number="38" hits="7" branch="false"/>
+								<line number="39" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="getConsumerType" signature="()Lcom/retail/billingsystem/helper/ConsumerType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCustomerName" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPurchaseId" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRegistrationDate" signature="()Lorg/joda/time/DateTime;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="91" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="isAvailableForLoyaltyDiscount" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="100" hits="5" branch="false"/>
+								<line number="101" hits="5" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="setPurchaseId" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="34" hits="7" branch="false"/>
+						<line number="35" hits="7" branch="false"/>
+						<line number="36" hits="7" branch="false"/>
+						<line number="37" hits="7" branch="false"/>
+						<line number="38" hits="7" branch="false"/>
+						<line number="39" hits="7" branch="false"/>
+						<line number="49" hits="4" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="100" hits="5" branch="false"/>
+						<line number="101" hits="5" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+					</lines>
+				</class>
+				<class name="com.retail.billingsystem.helper.ConsumerType" filename="com/retail/billingsystem/helper/ConsumerType.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="1" branch="false"/>
+								<line number="9" hits="1" branch="false"/>
+								<line number="12" hits="1" branch="false"/>
+								<line number="15" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;ID)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="3" branch="false"/>
+								<line number="26" hits="3" branch="false"/>
+								<line number="27" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDiscountPercentage" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lcom/retail/billingsystem/helper/ConsumerType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lcom/retail/billingsystem/helper/ConsumerType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="1" branch="false"/>
+						<line number="9" hits="1" branch="false"/>
+						<line number="12" hits="1" branch="false"/>
+						<line number="15" hits="1" branch="false"/>
+						<line number="25" hits="3" branch="false"/>
+						<line number="26" hits="3" branch="false"/>
+						<line number="27" hits="3" branch="false"/>
+						<line number="35" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.retail.billingsystem.helper.Item" filename="com/retail/billingsystem/helper/Item.java" line-rate="0.7272727272727273" branch-rate="1.0" complexity="1.6">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/retail/billingsystem/helper/Product;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="11" branch="false"/>
+								<line number="26" hits="11" branch="false"/>
+								<line number="27" hits="11" branch="false"/>
+								<line number="28" hits="11" branch="false"/>
+								<line number="29" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDiscountedPrice" signature="(D)D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="11" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="66" hits="4" branch="false"/>
+								<line number="68" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="getProduct" signature="()Lcom/retail/billingsystem/helper/Product;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getQuantity" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTotalCost" signature="()D" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="55" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="11" branch="false"/>
+						<line number="26" hits="11" branch="false"/>
+						<line number="27" hits="11" branch="false"/>
+						<line number="28" hits="11" branch="false"/>
+						<line number="29" hits="11" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="65" hits="11" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="66" hits="4" branch="false"/>
+						<line number="68" hits="7" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.retail.billingsystem.helper.Product" filename="com/retail/billingsystem/helper/Product.java" line-rate="0.8461538461538461" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="getName" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPrice" signature="()D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="80" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSku" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="isDiscountable" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setDiscountable" signature="(Z)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="11" branch="false"/>
+								<line number="72" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setName" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="11" branch="false"/>
+								<line number="36" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setPrice" signature="(D)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="11" branch="false"/>
+								<line number="90" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setSku" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="11" branch="false"/>
+								<line number="54" hits="11" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="11" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="35" hits="11" branch="false"/>
+						<line number="36" hits="11" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="53" hits="11" branch="false"/>
+						<line number="54" hits="11" branch="false"/>
+						<line number="62" hits="11" branch="false"/>
+						<line number="71" hits="11" branch="false"/>
+						<line number="72" hits="11" branch="false"/>
+						<line number="80" hits="11" branch="false"/>
+						<line number="89" hits="11" branch="false"/>
+						<line number="90" hits="11" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.retail.billingsystem.services" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.retail.billingsystem.services.BillCalculatorService" filename="com/retail/billingsystem/services/BillCalculatorService.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="com.retail.billingsystem.services.BillCalculatorServiceImpl" filename="com/retail/billingsystem/services/BillCalculatorServiceImpl.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="4" branch="false"/>
+								<line number="18" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="calculateTotalPayableAmount" signature="(Lcom/retail/billingsystem/helper/Consumer;Ljava/util/List;)D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="4" branch="false"/>
+								<line number="27" hits="4" branch="false"/>
+								<line number="34" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDiscountBasedOnTotalAmount" signature="(D)D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="59" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDiscountPercentageForCustomer" signature="(Lcom/retail/billingsystem/helper/Consumer;)D" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="4" branch="false"/>
+								<line number="46" hits="4" branch="true" condition-coverage="100% (6/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+										<condition number="2" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="47" hits="3" branch="false"/>
+								<line number="49" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="lambda$calculateTotalPayableAmount$0" signature="(DLcom/retail/billingsystem/helper/Item;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="8" branch="false"/>
+								<line number="29" hits="8" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="4" branch="false"/>
+						<line number="18" hits="4" branch="false"/>
+						<line number="26" hits="4" branch="false"/>
+						<line number="27" hits="4" branch="false"/>
+						<line number="28" hits="8" branch="false"/>
+						<line number="29" hits="8" branch="false"/>
+						<line number="34" hits="4" branch="false"/>
+						<line number="45" hits="4" branch="false"/>
+						<line number="46" hits="4" branch="true" condition-coverage="100% (6/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+								<condition number="2" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="47" hits="3" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+						<line number="59" hits="4" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
